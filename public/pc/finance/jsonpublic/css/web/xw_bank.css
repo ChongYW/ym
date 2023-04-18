@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.user_cg{position:fixed; width:580px; left:50%; top:50%; margin-left:-290px; margin-top:-215px; padding:10px 0px 0px 0px; background:#fff; border-radius:5px; z-index:200;}
+.user_clo{position:fixed; width:40px; left:50%; margin-left:-20px; top:50%; margin-top:185px; border-radius:5px; z-index:200;}
+.user_clo img{width:100%;}
+.user_txt2{border-top:1px #ececec solid; padding:20px 0px 20px 0px; margin:20px 10% 0px 10%; text-align:center;}
+.user_txt1{padding:20px 10% 0px 10%; text-align:center;}
+.user_txt1 img{width:60%;}
+.user_txt2 img{width:94%;}
+.usbtn{width:80%; display:block; margin:0px auto 45px auto; font-size:18px; color:#fff; height:44px; line-height:44px; border-radius:5px; background:#ffa07a; text-align:center;}
+.usbtn:hover{background:#ff8352; color:#fff;}
+
+
+.btn_oly{height:42px; display:block; line-height:42px; width:80%; margin:20px auto 0px auto; text-align:center; color:#fff; border-radius:5px; background:#ff9f59; border:1px #ff9f59 solid;}
+.btn_oly:hover{background:#ff8352; color:#fff;}
+
+.ptb0{ padding-top:20px;}
+.cl05{color:#000;}

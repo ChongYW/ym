@@ -1,0 +1,262 @@
+*{ margin:0px; padding:0px; list-style:none;}
+body{ font-family:microsoft yahei;}
+html{font-size:62.5%}
+img { border:none; display:block}
+input{ vertical-align:middle;}
+a{ text-decoration:none}
+body,html{-webkit-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/*a{ -webkit-tap-highlight-color: rgba(0,0,0,0);}*/
+.colyr{ color:#FF694E}
+.coly{ color:#FF9F5A}
+.col9{ color:#999;}
+.col8{ color:#888;}
+.col6{ color:#666;}
+.col4{ color:#444;}
+.col3{ color:#333;}
+.colf{ color:#fff;}
+
+.bgf5{ background:#f5f5f5}
+.bge{ background:#eee;}
+.bgf{ background:#fff;}
+.bgd{ background:#ddd;}
+.bgr{ background:#FF694E}
+.bgy{ background:#FF9F5A}
+.bgg{ background:#57C59E}
+.bgqg{ background:#86d0b5}
+
+.ft12{font-size:1.2rem}
+.ft14{font-size:1.4rem}
+.ft16{font-size:1.6rem}
+.ft18{font-size:1.8rem}
+.ft20{font-size:2.0rem}
+.ft22{font-size:2.2rem}
+.ft24{font-size:2.4rem}
+.ft30{font-size:3.0rem}
+.ft36{font-size:3.6rem}
+.ft48{font-size:4.8rem}
+
+.mt5{ margin-top:5px}
+.mt10{ margin-top:10px}
+.mt15{ margin-top:15px}
+.mt20{ margin-top:20px}
+.mt25{ margin-top:25px}
+.mt30{ margin-top:30px}
+
+.ovet{ height:auto; overflow:hidden}
+.fama{ font-family:Arial}
+
+.fr{ float:right}
+.fl{ float:left}
+.pr{ position:relative}
+.dn{ display:none}
+
+.expbut{ position:fixed; left:0; bottom:0; width:100%;z-index:3}
+.expbut a{ height:44px; line-height:44px; display:block;  font-size:17px; text-align:center}
+.expbut a.fl{width:30%;}
+.expbut a.fr{width:70%;color:#fff;}
+.tbbut{ width:80%; height:42px; line-height:42px; font-size:16px; border-radius:5px; text-align:center; display:block; margin:0 auto}
+.ygbxnew{font-size: 14px;}
+/*------------------------------------------- 投标确认页面 --------------------------------------------*/
+#tbok_box{ width:100%;}
+.tbok_xx{ padding:4% 5%; width:90%;}
+.tbok_xx h4{ font-weight:normal; font-size:16px}
+.tbok_xx p{ font-size:14px; margin-top:7px}
+.tbok_xx p span{ font-size:12px; margin:0 8px; display:inline-block; color:#9de2c9}
+
+.tbok_ye{font-size:15px; height: 38px; line-height: 38px;}
+.tbok_ye a{ display:block; font-size:13px; float: right;}
+
+.tbok_sy,.tbok_jx{ width:100%; border-top:1px solid #eee;}
+.tbok_sy .tbsyli,.tbok_jx .tbjxli{ padding:0 5%; height:44px; line-height:44px; border-bottom:1px solid #eee; font-size:16px}
+.tbok_sy .tbsyli h5{ display:inline-block; margin-left:10px; font-size:16px; font-weight:normal}
+.tbok_sy .tbsyli .tbsyinput{ display:inline-block; margin-left:10px; font-size:16px; height:20px; line-height:20px; border:none; width:60%;padding:10px 0;}
+
+.tbok_sy .tbsyli .tbsyinput1{ display:inline-block; margin-left:10px; font-size:26px; height:20px; line-height:20px; border:none; width:60%;padding:10px 0;}
+
+.tbok_sy .tbsyli a{ display:inline-block; height:21px; line-height:21px; font-size:13px; padding:0 10px; border-radius:21px; margin-top:13px; margin-right:-5px}
+
+.tbsyje{ height:90px; line-height:90px; border-bottom:2px solid #eee;  z-index: 2; margin: 0px 17%; width: 66%; position: relative;}
+.tbsy_dw{position: absolute; left: -40px; font-weight: 100; font-size: 50px; color: #ececec; line-height: 90px; height: 90px; top: 0px;}
+.tbsy_dws{position: absolute; left: -40px; font-weight: 100; font-size: 16px; color: #86D0B5; line-height: 90px; height: 90px; top: 0px;}
+.tbsyje h5{ display:inline-block; margin-left:10px; font-size:16px; font-weight:normal}
+
+
+.tbsyje .tbsyinput{ text-align: center; font-size:54px; color: #fe734c; height:90px; line-height:90px; border:none; width:100%;}
+.tbsyje1{ height:90px; line-height:90px; border-bottom:2px solid #eee;  z-index: 2; margin: 0px 17%; width: 66%; position: relative;}
+.tbsyje1 h5{ display:inline-block; margin-left:10px; font-size:14px; font-weight:normal}
+
+.tbsyje1 .tbsyinput1{ text-align: center; font-size:54px; color: #86D0B5; height:90px; line-height:90px; border:none; width:100%;}
+.tbsyje1 a{ position: absolute; right: -45px; top:46px; height:20px; line-height:20px; width: 40px; border: 1px #57c59e solid; display: block; font-size:12px; text-align: center; color: #57c59e; border-radius:12px; }
+.tbsyje a{ position: absolute; right: -45px; top:46px; height:20px; line-height:20px; width: 40px; border: 1px #57c59e solid; display: block; font-size:12px; text-align: center; color: #57c59e; border-radius:12px; }
+.tbyqsy{text-align: center; line-height: 30px; height: 30px; margin-bottom: 10px; margin-top: 5px;}
+.jxq_tt{height: 40px; line-height: 40px; margin-right: 5%; border-bottom: 1px #ececec solid;}
+.jxq_tt .q_i{width: 18px; float: left; margin-top: 11px; margin-right: 3px;}
+.jxq_tt p{float: left; line-height: 40px; font-size: 14px; color: #888;}
+
+.tbjxli a{ display:block; width:100%; height:100%s}
+.tbjxli .mugo{ display:block; height:14px; margin-top:15px; margin-left:10px}
+.tbjxli small{ font-size:14px}
+
+.tbok_yd{ padding:0 5%; width:90%; font-size:13px;line-height:22px}
+.tbok_yd input{ display:inline-block; width:16px; height:16px; background:#fff; border:1px solid #ddd;margin-right:3px; vertical-align:middle}
+.tbok_yd a{ color:#4798f1}
+
+.tbok_but{ width:100%;}
+.tbok_fx{ width:100%; text-align:center; font-size:13px}
+
+:-moz-placeholder{color:#999; font-size:12px; font-weight:normal}
+::-moz-placeholder{color:#999; font-size:12px;font-weight:normal}
+input:-ms-input-placeholder{color:#999; font-size:12px;font-weight:normal}
+input::-webkit-input-placeholder{color:#999; font-size:12px;font-weight:normal}
+.tbsyinput:-moz-placeholder{text-align: center; line-height: 90px;}
+.tbsyinput::-moz-placeholder{text-align: center; line-height: 90px;}
+input.tbsyinput:-ms-input-placeholder{text-align: center; line-height: 90px;}
+input.tbsyinput::-webkit-input-placeholder{text-align: center; line-height: 90px;}
+
+.hbcss{background:#ff5959; color:#fff; display:inline-block; padding:0 5px; font-size:13px; height:19px; line-height:19px; margin-left:5px; border-radius:3px}
+.laysafe img{display:inline-block; margin-right:5px;}
+.lay_cw{text-align:center; font-size:16px}
+
+.no_zz{position:absolute; right: 0px; z-index: 10; top: 13px; background: #fff; height: 24px; line-height: 24px; font-size: 14px; color: #3e9c7a; border-radius: 14px 0px 0px 14px; width: 85px; text-align: center;}
+.tb_okbox{background: #fff; padding: 0px 5%; border-bottom: 1px solid #eee;}
+.czfl_rt{float: right; margin-top: 12px; width: 16px;}
+.czfl_tt{float: right; line-height: 38px; margin-right: 5px;}
+
+.qulist{width:100%; overflow:scroll; height: 80px;  padding-top: 20px;}
+.quover{text-overflow: ellipsis; white-space: nowrap;}
+.quover a{display: block; float: left; width: 155px; position: relative; margin-right: 10px;}
+.ttqu{position:absolute; width: 55%; font-size: 23px; left: 10px; top: 14px; z-index: 2; color: #e88a6e;}
+.ttqu .add{font-size: 20px;}
+.ttqu .bf{font-size: 18px;}
+.ttqu_a,.ttqu_b{-webkit-transform : scale(0.84,0.84) ;color: #e88a6e; font-size: 11px; position:absolute; width: 50%; z-index: 2; right: 10px; top: 12px;}
+.ttqu_b{top: 27px;}
+.oki{width: 24px; position:absolute; display: none; left: 0px; top: 0px; z-index: 20;}
+.quanhov .oki{display: block;}
+.quanhov .ttqu,.quanhov .ttqu_a,.quanhov .ttqu_b{color:#fff;}
+.quan_no .ttqu,.quan_no .ttqu_a,.quan_no .ttqu_b{color:#8a8987;}
+
+.ip5txt{font-size:14px;}
+
+/*------------------------弹框--------------------------*/
+.zhezhao{width:100%; height:100%; position:fixed; background:#000;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;z-index:99; top:0; left:0}
+.tbok_zz{ width:70%; height:auto; overflow:hidden; padding:6% 5%; position:fixed; left:10%; top:35%; z-index:100; border-radius:5px}
+.tbok_zz h3{ font-size:18px; font-weight:normal; text-align:center}
+.tbok_zz p{ width:86%; margin:0 auto; margin-top:25px}
+.tbok_zz p a{ width:47%; height:32px; line-height:32px; font-size:14px; text-align:center; border-radius:5px}
+
+
+/*---------------------------------------------------- 投资成功页Investment_ok ----------------------------------------------------------*/
+.invok_box{ width:90%; margin:5%}
+.invok_tit{ text-align:center;}
+.invok_tit img{ display:block; margin:0 auto; width:55px}
+.invok_tit h5{ font-size:2rem; font-weight:normal; height:3.6rem; line-height:4.6rem}
+
+.invokt{ font-size:14px;}
+.invok_datial{ border-radius:5px; border:1px solid #eee;}
+.invok_datial small{ font-size:12px}
+.invok_datial .col4{ padding:3% 5%; font-size:16px; border-bottom:1px solid #eee;}
+
+.invbut a{ display:block; width:100%; height:42px; line-height:42px; text-align:center; font-size:16px; border-radius:5px}
+.choice{ width:30px;}
+.choice input{ display:block; width:24px; background:none; border:3px solid #aaa}
+
+.invok_bd{ margin-top:2.5rem;}
+.invok_bd h3,.invok_bd h4{ font-weight:normal;display:inline-block}
+.invok_bd h3{ font-size:16px;}
+.invok_bd h4{ font-size:12px; margin-left:5px}
+
+.invok_datial .inlvokli{ height:auto; overflow:hidden}
+.invok_datial .inlvokli .inlvokp01{ border-bottom:1px dashed #eee; padding-bottom:3%}
+.invok_datial .inlvokli .inlvokp02{ text-align:right; font-size:12px; padding-top:3%}
+.invok_datial .inlvokli .inlvokp02 span{ color:#333}
+
+/*---------------------------------------- 选择体验釄1�7 ----------------------------------------*/
+.cho_box{ width:94%; margin:3%}
+.choexpbox{position:relative; background:url(/jsonpublic/source/images/appnew/icon/quan_jx.png) no-repeat; background-size:100% auto; background-position:center; width:86%; height:auto; margin-left:35px; padding:16% 0;}
+.chofl{ position:absolute; left:2%; top:18%; width:60%; padding:3% 0; text-align:center;}
+.chofl h3{ font-size:3.8rem; font-weight:normal;/*font-family:Impact;*/ margin-top:4%; height:4rem; line-height:4rem; font-weight:bold}
+.chofl h3 small{ font-size:2.8rem}
+.chofl p,.chofr p{ font-size:12px;}
+.chofr{ position:absolute; right:2%; top:18%; width:34%; text-align:center; padding:3% 0;}
+.chofr p{ margin-top:42%; color:#b42b14}
+.choice{ width:20px; position:absolute; left:-30px; top:50%; margin-top:-10px}
+.choice img{ display:block; width:20px}
+
+.recdiv_ly{position:absolute; z-index:110; width:96%; left:2%; top:27px;}
+.tbok_ye a.rec_bl{width:45%; float:left;}
+.tbok_ye a.rec_br{width:45%; float:right;}
+.rec_txt{height:40px; line-height:40px; text-align:center; font-size:18px; color:#333; position:absolute; z-index:112; width:100%; left:0px; top:82px;}
+.rec_btn{width: 90%; margin-top: 10px; margin-left: 5%;}
+
+.kj_btn{background:#fff; padding:20px 10%;}
+.kj_btn img{width:100%;}
+.dekj{margin-top:-20px;}
+
+/*new*/
+.choexp_zz{position:absolute; top:8%; right:0; width:100%; z-index:2;background:#000;opacity:0.55; height:84%}
+.choexp_yzf{position:absolute; top:43%; left:0; width:100%; z-index:3; text-align:center; color:#fff; font-size:16px}
+
+
+/*4 4s 5s*/
+@media only screen and (width:320px){
+	.exptit{ width:140px; height:32px; line-height:32px; border-radius:0 32px 32px 0}
+	.exptit h5{ font-size:14px;}
+	.expbut a{ height:40px; line-height:40px; font-size:16px;}
+	.chofl p,.chofr p{ font-size:11px;}
+	.myjlbut a{ height:38px; border-radius:38px; line-height:38px}
+	.expbut02 a,.expbut01 a{ height:32px; line-height:32px; font-size:14px}
+
+	.tbok_xx h4,.tbok_ye{font-size:15px}
+	.tbok_xx p,.tbok_yd,.tbok_fx{ font-size:13px;}
+	.tbok_ye a{height:19px; line-height:19px;border-radius:19px;}
+	.tbok_zz h3{ font-size:16px}
+	.invok_bd{ margin-top:2rem;}
+	.rec_txt{top:60px;}
+	.rec_br{width:44%;}
+	.ip5txt{font-size:12px;}
+}
+
+@media only screen and (min-width:321px){
+	.choexpbox{ width:82%; margin-left:45px;}
+}
+
+/*安卓 p6*/
+@media only screen and (min-width:360px)and (max-width:384px){
+	html{font-size:71%;}
+	.invok_tit img{ width:65px}
+	.choice{ width:26px; margin-top:-13px; left:-40px}
+	.choice img{ width:26px}
+	.expbut02 a,.expbut01 a{ height:34px; line-height:34px; font-size:15px}
+}
+
+/*6plus */
+@media only screen and (min-width:385px)and (max-width:414px){
+	html{font-size:83%;}
+	.invok_tit img{ width:75px}
+	.invbut a{ height:44px; line-height:44px}
+	.choice{ width:28px; margin-top:-14px; left:-45px}
+	.choice img{ width:28px}
+	.tbbut{ height:44px; line-height:44px; font-size:18px}
+}
+
+/*480 小米 */
+@media only screen and (min-width:415px)and (max-width:540px){
+	html{font-size:92%;}
+	.invok_tit img{ width:75px}
+	.invbut a{ height:44px; line-height:44px}
+	.choice{ width:28px; margin-top:-14px; left:-45px}
+	.choice img{ width:28px}
+	.chofl p,.chofr p{ font-size:13px;}
+	.tbbut{ height:44px; line-height:44px; font-size:18px}
+}
+
+
+@media only screen and (min-width:541px){
+	html{font-size:100%;}
+	.invok_tit img{ width:80px}
+	.invbut a{ height:46px; line-height:46px}
+	.choice{ width:28px; margin-top:-14px; left:-45px}
+	.choice img{ width:28px}
+	.chofl p,.chofr p{ font-size:13px;}
+	.tbbut{ height:44px; line-height:44px; font-size:18px}
+}

@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ font-family:microsoft yahei; font-size:16px;}
+img { border:none; }
+ul li { list-style:none;}
+a{ text-decoration:none}
+
+/*通用*/
+.hbbg01{ background:#f0eff5}
+.hbbg02{ background:#86d0b5}/*绿色*/
+.hbbg03{ background:#ff7145}/*橙色*/
+.hbbg04{ background:#1d2b49}/*深蓝*/
+
+.hbcol1{ color:#f74c30}/*橙色*/
+.hbcol2{ color:#7b97d2}/*浅蓝*/
+.hbcol3{ color:#ffcf3f}/*黄色*/
+.hbcol03{ color:#333}
+.hbcol04{ color:#444}
+.hbcol06{ color:#666}
+.hbcol08{ color:#888}
+.hbcol09{ color:#999}
+.hbcol10{ color:#fff}
+
+.redfl{ float:left}
+.redfr{ float:right}
+.pr{ position:relative}
+
+.redpt20{ padding-top:20px}
+
+.tk_box img,.fx_wechat ul .fxli a img,.red_ad ul .red_adli img,.xz_box img{ max-width:100%; height:auto; display:block;-ms-interpolation-mode: bicubic; margin:0 auto}
+/*通用 ends*/
+
+/*悬浮发红包*/
+#fd_red{ position:fixed; bottom:60px; right:8px; z-index:1}
+#fd_red a img{ display:block; width:50px}
+
+/*弹框*/
+.zhezhao{ width:100%; height:100%; background:#000;opacity:0.6; position:absolute; z-index:1; top:0; left:0}
+.tk_cont{width:100%; position:fixed; z-index:999;bottom:50%; margin-bottom:-120px}
+.com-name{ position:absolute; top:0; left:0; width:100%;}
+.com-name b{display:block;}
+.com-name b img{ display:block; width:30px; height:30px; margin-left:82%; margin-top:-15px}
+.red_xj{ text-align:center; line-height:40px; height:130px;}
+.red_xj h3,.red_xj h4{ font-weight:normal}
+.red_xj h3{ font-size:20px}
+.red_xj h4{ font-size:18px}
+.red_xj h4 span{ font-size:24px}
+.red_but{ width:70%; margin:0 auto; height:120px; margin-top:15px}
+.red_but a{ display:block; width:100%; height:40px; line-height:40px; font-size:24px; color:#333; background:#ffd800; text-align:center; border-bottom:3px solid #f1b500; border-radius:5px}
+.red_but p{ font-size:14px; margin-top:20px; line-height:24px}
+
+.tk_cont2{ position:fixed; top:100px;}
+.com-name2{ width:76%; background:#f26a3b;position:absolute; top:0; left:10%; border:5px solid #ffc6b2; height:auto;}
+.com-name2 b img{ margin-left:92%; margin-top:-20px}
+.red_xj2{ height:auto; color:#fff; padding-top:10px}
+.red_xj2 h4{ font-size:16px; line-height:24px}
+.red_xj2 h4 span{ font-weight:bold; color:#FF0; font-size:22px}
+.tk_wapcon{ color:#fff; text-align:center; padding:15px 0; padding-bottom:20px}
+.tk_wapcon p{ line-height:20px; font-size:14px}
+.tk_wapcon img{ display:block; width:110px; height:110px; margin:0 auto; border:5px solid #fff; margin-top:10px}
+
+/*分享*/
+.fx_wechat{ z-index:999; position:fixed; bottom:0; left:0; width:100%; height:auto;}
+.fx_wechat ul .fxli{ width:100%; height:auto; overflow:hidden; border-top:1px solid #ddd;}
+
+/*投资成功页面*/
+#red_main{ width:90%; margin:0 auto;}
+.tz_ok{ font-size:20px; width:130px; margin:0 auto;}
+.tz_ok img{ display:inline-block; width:30px; height:30px; vertical-align:middle; margin-right:10px}
+
+.white_box{ width:90%; border:1px solid #ddd; background:#fff; height:auto; overflow:hidden; margin-top:25px; border-radius:5px; padding:4%}
+.white_box ul .white_boxli{ font-size:14px; height:26px; line-height:26px}
+
+.tz_but{ margin-top:15px}
+.tz_but .hbcol10{ display:inline-block; width:47%; height:40px; line-height:40px; text-align:center; border-radius:5px;}
+.tz_but .hbbg03{ margin-left:10px}
+.tz_but .hbbg02:hover{ background:#69c8a5}
+.tz_but .hbbg03:hover{ background:#f66031}
+
+/*领取红包*/
+.red_ad{ width:100%; height:auto; overflow:hidden}
+.red_lqbut{ width:90%; margin:0 auto;}
+.red_lqbut input{ height:45px; border-radius:5px; line-height:45px; width:95%; border:none; padding-left:5%; font-size:20px; font-family:microsoft yahei; margin:20px 0; color:#666}
+.red_lqbut a{ display:block}
+.red_lqbut a img{ display:block; width:100%}
+
+/*领取成功*/
+.xz_cont01{position:absolute;width:100%; top:80px; left:0;}
+.lqok{ text-align:center; height:100px;}
+.lqok h3{ font-weight:normal; font-size:18px;}
+.lqok h3 span{ font-size:30px;}
+.lqok p{ color:#666; font-size:12px; line-height:19px; }
+.lqok p span{ font-size:14px}
+
+.lqok_but{ width:67%; margin:0 auto; margin-top:80px}
+.lqok_but img{ width:100%; display:block}
+.lqok_but .hbcol10{ text-align:right; display:block; margin-top:10px}
+
+.wechat_list{ width:94%; background:#2e4c8c; height:auto; overflow:hidden; margin:0 auto; margin-top:30px; margin-bottom:20px}
+.wechat_list h5{ font-weight:normal; font-size:16px; border-bottom:1px solid #4765a5; padding:2% 3%}
+.weclist{ height:auto; overflow:hidden}
+.weclist ul{ border-bottom:1px solid #4765a5;width:96%; margin:0 auto; padding:10px 0; height:auto; overflow:hidden;}
+.weclist ul .red_pic{ width:39px;}
+.weclist ul .red_pic img{ display:block; width:35px; border-radius:35px; border:2px solid #a2bbf0}
+.weclist ul .red_name{ color:#84a0dc; width:160px; font-size:12px; margin-left:10px; line-height:20px}
+.weclist ul .red_name span{ display:block; font-size:14px}
+.weclist ul .red_money{ font-size:18px; line-height:39px;}
+
+/*pc过来发红包*/
+.lqok p.red_fhb{ color:#666; line-height:19px; margin-top:10px; font-size:18px }
+.lqok p.red_fhb span{ font-size:24px; font-weight:600}
+.lqok_text{ text-align:center; margin-top:75px; line-height:26px;}
+.fred_but{ width:90%; margin:0 auto}
+.fred_but img{ width:100%; margin-top:20px}
+
+/*我的红包*/
+.red_tab{ width:90%; padding:0 5%; height:50px}
+.red_tab ul .redtabli{ width:50%; float:left}
+.red_tab ul .redtabli a{ display:block; height:45px; color:#fff; text-align:center; line-height:50px; font-size:18px}
+.red_tab ul .redtabli a.redtab_hov{ color:#555; background:#f0eff5;border-radius:5px 5px 0 0; height:45px; margin-top:10px; font-size:20px; line-height:40px}
+
+.red_box{ width:90%; margin:0 auto; height:auto; overflow:hidden;}
+.red_now{ height:110px; width:92%; background:url(/jsonpublic/source/images/front/red/e_bg01.png) repeat-x; margin:10px 0; color:#fff; padding:0 4%; padding-top:25px;}
+.rednowtit{ border-bottom:1px solid #fff; color:#fff; padding-bottom:6px}
+.red_ok .rednowtit{ border-bottom:1px solid #ddd; color:#666}
+.rednowbot{ padding-top:8px}
+.red_now .rednowli{ font-size:12px; line-height:25px}
+.red_now .rednowli span{ font-size:14px; display:block}
+.red_now .rednowli2{ line-height:50px; font-size:14px}
+.red_now .rednowli2 span{ font-size:28px;}
+.red_ok{background:url(/jsonpublic/source/images/front/red/e_bg02.png) repeat-x; color:#bbb}
+.ideal,.ideal01,.ideal2,.ideal02,.ideal3,.ideal03{ background:url(/jsonpublic/source/images/front/red/icon_date.png) no-repeat; width:64px; height:64px; position:absolute; top:20px; right:70px}
+/*已发完*/.ideal,.ideal01{ background-position:0 0}
+/*已使用*/.ideal2,.ideal02{background-position:0 -66px}
+/*已过期*/.ideal3,.ideal03{background-position:0 -131px}
+.fcred{ padding-top:10px; color:#666}
+.rednowli2 .rednowlia{ display:block; width:80px; height:30px; background:#fff; border-radius:5px; margin-top:10px; text-align:center; line-height:30px; color:#ff9b82}
+.red_ok a{ color:#aaa; cursor:text}
+.ideal01,.ideal02,.ideal03{position:absolute; top:20px; left:auto;right:20px;}
+
+.red_ad2{position:absolute; bottom:0}
+
+@media only screen and (max-height:480px){
+	.red_ad2{position:inherit}
+}
+
+@media only screen and (min-width:375px)and (max-width:413px){
+	/*悬浮发红包*/
+	#fd_red a img{width:55px}
+	/*弹框*/
+	.com-name b img{ width:35px; height:35px;}
+	.red_xj{margin-top:10px}
+	.red_xj h3{ font-size:30px}
+	.red_xj h4{ font-size:22px}
+	.red_but{height:130px; margin-top:30px}
+	.red_but a{height:45px; line-height:45px; font-size:26px; border-bottom:5px solid #f1b500;}
+	.tk_cont2{ position:fixed; top:120px;}
+	.tk_wapcon{ padding-bottom:20px;}
+	.tk_wapcon p{ line-height:24px; font-size:14px}
+	.red_xj2 h4{ font-size:18px; line-height:30px}
+	.red_xj2 h4 span{ font-size:30px}
+	.tk_wapcon img{ width:140px; height:140px; border:8px solid #fff; margin-top:15px}
+	/*投资成功*/
+	.tz_ok{font-size:24px; width:140px;}
+	.tz_ok img{width:34px; height:34px;}
+	.white_box ul .white_boxli{ font-size:16px; height:30px; line-height:30px}
+	.tz_but .hbcol10{ font-size:18px; height:45px; line-height:45px}
+	/*领取红包*/
+	.red_lqbut input{ height:55px; line-height:55px; font-size:22px;margin:25px 0;}	
+	/*领取成功*/
+	.xz_cont01{position:absolute;top:90px;}
+	.lqok{ height:120px}
+	.lqok h3{font-size:20px}
+	.lqok h3 span{ font-size:32px;}
+	.lqok p{font-size:14px; line-height:26px; margin-top:10px }
+	.lqok p span{ font-size:18px}
+	.lqok_but{ margin-top:90px}
+	.lqok_but .hbcol10{margin-top:15px}
+	/*pc过来发红包*/
+	.lqok p.red_fhb{ margin-top:10px; font-size:20px }
+	.lqok p.red_fhb span{ font-size:28px;}
+	.lqok_text{ margin-top:90px; line-height:30px; font-size:18px}
+	.fred_but img{ margin-top:20px}
+	/*我的红包*/
+	.red_now .rednowli{ font-size:12px; line-height:25px}
+	.red_now .rednowli span{ font-size:15px;}
+	.ideal,.ideal2,.ideal3{left:185px}
+	.ideal01,.ideal02,.ideal03{right:30px;}
+	.rednowli2 a{width:120px; height:40px; line-height:40px; font-size:18px; margin-top:6px}
+	}
+		
+		
+@media only screen and (min-width:414px)and (max-width:479px){
+	/*悬浮发红包*/
+	#fd_red a img{width:60px}
+	/*弹框*/
+	.com-name b img{ width:40px; height:40px;}
+	.red_xj{margin-top:10px; line-height:45px}
+	.red_xj h3{ font-size:32px}
+	.red_xj h4{ font-size:24px}
+	.red_xj h4 span{ font-size:28px}
+	.red_but{height:135px; margin-top:50px}
+	.red_but a{height:50px; line-height:50px; font-size:26px; border-bottom:5px solid #f1b500;}
+	.red_but p{ font-size:16px; margin-top:20px; line-height:23px}
+	.tk_cont2{ position:fixed; top:130px;}
+	.red_xj2 h4{ font-size:20px; line-height:30px}
+	.red_xj2 h4 span{ font-size:30px}
+	.tk_wapcon{ padding-bottom:30px;}
+	.tk_wapcon p{ line-height:30px; font-size:16px}
+	.tk_wapcon img{ width:140px; height:140px; border:8px solid #fff; margin-top:20px}
+	/*投资成功*/
+	.tz_ok{font-size:24px; width:150px}
+	.tz_ok img{width:36px; height:36px; }
+	.white_box ul .white_boxli{ font-size:16px; height:30px; line-height:30px}
+	.tz_but .hbcol10{ font-size:18px; height:45px; line-height:45px}
+	/*领取红包*/
+	.red_lqbut input{ height:55px; line-height:55px; font-size:22px;margin:25px 0;}
+	/*领取成功*/
+	.xz_cont01{position:absolute;top:100px;}
+	.lqok{ height:140px}
+	.lqok h3{font-size:24px}
+	.lqok h3 span{ font-size:36px;}
+	.lqok p{font-size:15px; line-height:30px; margin-top:10px }
+	.lqok p span{ font-size:20px}
+	.lqok_but{ margin-top:95px}
+	.lqok_but .hbcol10{margin-top:18px}
+	/*pc过来发红包*/
+	.lqok p.red_fhb{ margin-top:20px; font-size:22px }
+	.lqok p.red_fhb span{ font-size:30px;}
+	.lqok_text{ margin-top:90px; line-height:36px; font-size:20px}
+	.fred_but img{ margin-top:40px}
+	/*我的红包*/
+	.red_now .rednowli{ font-size:13px; line-height:26px}
+	.red_now .rednowli span{ font-size:15px;}
+	.ideal,.ideal2,.ideal3{left:210px}
+	.ideal01,.ideal02,.ideal03{right:30px;}
+	.rednowli2 a{width:120px; height:40px; line-height:40px; font-size:18px; margin-top:6px}
+	}
+	
+@media only screen and (min-width:480px)and (max-width:539px){	
+	/*悬浮发红包*/
+	#fd_red a img{width:60px}
+	/*弹框*/
+	.com-name b img{ width:45px; height:45px; }
+	.red_xj{margin-top:20px; line-height:50px }
+	.red_xj h3{ font-size:36px}
+	.red_xj h4{ font-size:28px}
+	.red_xj h4 span{ font-size:32px}
+	.red_but{height:160px; margin-top:65px}
+	.red_but a{height:50px; line-height:50px; font-size:26px; border-bottom:5px solid #f1b500;}
+	.red_but p{ font-size:18px; margin-top:30px; line-height:30px}
+	.tk_cont2{ position:fixed; top:160px;}
+	.red_xj2 h4{ font-size:22px; line-height:34px}
+	.red_xj2 h4 span{ font-size:30px}
+	.tk_wapcon{ padding-bottom:30px;}
+	.tk_wapcon p{ line-height:30px; font-size:16px}
+	.tk_wapcon img{ width:140px; height:140px; border:8px solid #fff;}
+	/*投资成功*/
+	.tz_ok{font-size:24px; width:150px}
+	.tz_ok img{width:40px; height:40px; }
+	.white_box ul .white_boxli{ font-size:16px; height:30px; line-height:30px}
+	.tz_but .hbcol10{ font-size:18px; height:45px; line-height:45px}
+	/*领取红包*/
+	.red_lqbut input{ height:65px; line-height:65px; font-size:24px;margin:25px 0;}
+	/*领取成功*/
+	.xz_cont01{position:absolute;top:120px;}
+	.lqok{ height:160px}
+	.lqok h3{font-size:26px}
+	.lqok h3 span{ font-size:40px;}
+	.lqok p{font-size:16px; line-height:32px; margin-top:15px }
+	.lqok p span{ font-size:22px}
+	.lqok_but{ margin-top:110px}
+	.lqok_but .hbcol10{margin-top:22px; font-size:18px}
+	/*pc过来发红包*/
+	.lqok p.red_fhb{ margin-top:20px; font-size:24px }
+	.lqok p.red_fhb span{ font-size:36px;}
+	.lqok_text{ margin-top:100px; line-height:38px; font-size:22px}
+	.fred_but img{ margin-top:40px}
+	/*我的红包*/
+	.red_now .rednowli{ font-size:13px; line-height:26px}
+	.red_now .rednowli span{ font-size:15px;}
+	.ideal,.ideal2,.ideal3{left:240px}
+	.ideal01,.ideal02,.ideal03{right:30px;}
+	.rednowli2 a{width:120px; height:40px; line-height:40px; font-size:18px; margin-top:6px}
+	}	
+	
+	
+@media only screen and (min-width:540px)and (max-width:600px){	
+	/*悬浮发红包*/
+	#fd_red a img{width:65px}
+	/*弹框*/
+	.com-name b img{ width:48px; height:48px; }
+	.red_xj{margin-top:30px; line-height:50px }
+	.red_xj h3{ font-size:36px}
+	.red_xj h4{ font-size:28px}
+	.red_xj h4 span{ font-size:32px}
+	.red_but{height:180px; margin-top:70px}
+	.red_but a{height:55px; line-height:55px; font-size:30px; border-bottom:5px solid #f1b500;}
+	.red_but p{ font-size:18px; margin-top:30px; line-height:30px}
+	.tk_cont2{ position:fixed; top:160px;}
+	.red_xj2 h4{ font-size:22px; line-height:34px}
+	.red_xj2 h4 span{ font-size:30px}
+	.tk_wapcon{ padding-bottom:30px;}
+	.tk_wapcon p{ line-height:30px; font-size:16px}
+	.tk_wapcon img{ width:140px; height:140px; border:8px solid #fff;}
+	/*投资成功*/
+	.tz_ok{font-size:26px; width:160px}
+	.tz_ok img{width:44px; height:44px; }
+	.white_box ul .white_boxli{ font-size:16px; height:30px; line-height:30px}
+	.tz_but .hbcol10{ font-size:18px; height:45px; line-height:45px}
+	/*领取红包*/
+	.red_lqbut input{ height:75px; line-height:75px; font-size:26px;margin:25px 0;}
+	/*领取成功*/
+	.xz_cont01{position:absolute;top:140px;}
+	.lqok{ height:180px}
+	.lqok h3{font-size:30px}
+	.lqok h3 span{ font-size:44px;}
+	.lqok p{font-size:18px; line-height:36px; margin-top:15px }
+	.lqok p span{ font-size:24px}
+	.lqok_but{ margin-top:120px}
+	.lqok_but .hbcol10{margin-top:22px; font-size:18px}
+	/*pc过来发红包*/
+	.lqok p.red_fhb{ margin-top:20px; font-size:24px }
+	.lqok p.red_fhb span{ font-size:36px;}
+	.lqok_text{ margin-top:110px; line-height:40px; font-size:24px}
+	.fred_but img{ margin-top:40px}
+	/*我的红包*/
+	.red_now .rednowli{ font-size:13px; line-height:26px}
+	.red_now .rednowli span{ font-size:15px;}
+	.ideal,.ideal2,.ideal3{left:260px}
+	.ideal01,.ideal02,.ideal03{right:40px;}
+	.rednowli2 a{width:120px; height:40px; line-height:40px; font-size:18px; margin-top:6px}
+	}		
+				
+
+@media only screen and (min-width:601px){
+	/*悬浮发红包*/
+	#fd_red{ position:fixed; bottom:120px; right:20px;}
+	#fd_red a img{width:70px}
+	/*弹框*/
+	.com-name b img{ width:48px; height:48px; margin-left:80%; }
+	.red_xj{margin-top:30px; line-height:60px }
+	.red_xj h3{ font-size:36px}
+	.red_xj h4{ font-size:28px}
+	.red_xj h4 span{ font-size:32px}
+	.red_but{height:200px; margin-top:140px}
+	.red_but a{height:60px; width:400px; line-height:60px; font-size:32px; border-bottom:5px solid #f1b500; margin:0 auto}
+	.red_but p{ font-size:20px;line-height:40px; width:400px; margin:0 auto; margin-top:40px; }
+	.tk_cont2{ position:fixed; top:160px;}
+	.red_xj2 h4{ font-size:22px; line-height:34px}
+	.red_xj2 h4 span{ font-size:30px}
+	.tk_wapcon{ padding-bottom:30px;}
+	.tk_wapcon p{ line-height:30px; font-size:16px}
+	.tk_wapcon img{ width:140px; height:140px; border:8px solid #fff;}
+	/*投资成功*/
+	.tz_ok{font-size:30px; width:180px}
+	.tz_ok img{width:48px; height:48px; }
+	.white_box ul .white_boxli{ font-size:16px; height:30px; line-height:30px}
+	.tz_but .hbcol10{ font-size:18px; height:45px; line-height:45px}
+	/*领取红包*/
+	.red_lqbut input{ height:85px; line-height:85px; font-size:28px;margin:25px 0;}
+	/*领取成功*/
+	.xz_cont01{position:absolute;top:160px;}
+	.lqok{ height:210px}
+	.lqok h3{font-size:30px}
+	.lqok h3 span{ font-size:48px;}
+	.lqok p{font-size:22px; line-height:40px; margin-top:25px }
+	.lqok p span{ font-size:26px}
+	.red_lqbut{ width:600px}
+	.lqok_but{ margin-top:150px; width:400px}
+	.lqok_but .hbcol10{margin-top:30px; font-size:22px}
+	/*pc过来发红包*/
+	.lqok p.red_fhb{ margin-top:40px; font-size:30px }
+	.lqok p.red_fhb span{ font-size:48px;}
+	.lqok_text{ margin-top:130px; line-height:46px; font-size:26px}
+	.fred_but{ width:600px}
+	.fred_but img{ margin-top:60px}
+
+	/*我的红包*/
+	.red_now .rednowli{ font-size:13px; line-height:26px}
+	.red_now .rednowli span{ font-size:15px;}
+	.ideal,.ideal2,.ideal3{left:300px}
+	.ideal01,.ideal02,.ideal03{right:60px;}
+	.rednowli2 a{width:120px; height:40px; line-height:40px; font-size:18px; margin-top:6px}
+	}
+	

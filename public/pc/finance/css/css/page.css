@@ -1,0 +1,55 @@
+/*内容*/
+.article{margin:20px auto;}
+.art_menu{width:170px;float:left;}
+.art_menu h2{height:40px;font:16px/40px "Microsoft YaHei";padding-left:20px;background:#ea544a;color:#fff}
+.art_menu ul li a{display:inline-block;font:14px/40px "Microsoft YaHei";height:40px;width:135px;padding-left:30px;color:#555555;border-left:5px solid #fff;}
+.art_menu ul li { background:#fff; margin-top:1px}
+.art_menu ul li a.now{border-left:5px solid #ea544a;background:#f2f2f2;color:#ea544a}
+.art_menu ul li a:hover{border-left:5px solid #ea544a;background:#f2f2f2;color:#ea544a}
+.art_detail{float:right;width:970px;border:1px solid #ededed;padding:10px 20px;background:#fff; min-height:590px;}
+.art_detail img{}
+.art_detail .art_detai_tit{border-bottom:1px dashed #eaeaea;}
+.art_detail .art_detai_tit a.back{display:inline-block;width:55px;height:20px;text-align:center;background:#c1c1c1;color:#fff;border-radius:2px;margin-top: 20px;}
+.art_detail .art_detai_tit h3{text-align:center;font:18px/40px "Microsoft YaHei";color:#ea544a;}
+.art_detail .art_detai_tit p{padding:20px 0px;text-align:center;font-family:"simsun"}
+.art_detail .art_detai_tit p span{margin-right:10px;}
+.art_detail .page{padding-left:30px;margin-bottom: 20px;}
+.art_detail .page .prev,.next{line-height:24px;}
+.art_detail .art_detai_cont p{margin:25px 0px;font:14px/26px "simsun";color:#999999;}
+.art_detail .art_detai_cont p img{margin-right:60px;max-height:600px;max-width:600px;}
+.art_detail .art_list li{padding:20px 10px;border-bottom:1px dashed #eaeaea}
+.art_detail .art_list li:hover{ background:#f8f8f8;cursor:pointer}
+.art_detail .art_list li .title h3{position:relative}
+.art_detail .art_list li .title h3 a{font:16px/26px "Microsoft YaHei";color:#ea544a}
+.art_detail .art_list li .title h3 a.show_detai{position:absolute;right:0px;_right:20px;display:inline-block;width:50px;height:20px;text-align:center;background:#c1c1c1;font:12px/20px "simsun";color:#fff;border-radius:2px}
+.art_detail .art_list li .title h3 a.show_detai_all{background:#38394b}
+.art_detail .art_list li .title h3 a.show_detai_all:hover{background:#ea544a}
+.art_detail .art_list li .title span{font:12px/23px "Microsoft YaHei";margin:0px 30px 0px 2px; color:#CCCCCC}
+.art_detail .art_list li .title span em{color:#999999}
+.art_detail .art_list li .content{margin-top:10px;line-height:22px;color:#999999}
+.art_detail .art_list li .content p{max-height:45px;_height:45px;overflow:hidden; color:#999999;font-size: 14px;font-family: "microsoft yahei";}
+.about_us{font-family:"Microsoft YaHei"}
+.about_us h3{margin-bottom: 10px;font-size: 22px;font-weight:normal;color:#ea544a}
+.about_us .au_item{font:14px/24px "Microsoft YaHei"}
+.about_us .au_item h4{font-size:16px;color:#0697DA;font-weight:normal}
+
+.help{float:right;width:820px;border:1px solid #EDEDED;padding:10px 30px 30px 30px;background:#fff;}
+.help .search{padding-left:100px;background:url(images/src_bg.jpg) no-repeat 0px -5px;height:100px;margin-top:50px;}
+.help .search .src_box{font-size:0px;letter-spacing:-4px}
+.help .search .src_input{border:1px solid #e2e2e2;border-right:none;height:25px;line-height:25px;padding:9px;width:505px;display: inline-block;vertical-align: top;}
+.help .search .src_sub{width:80px;height:45px;display: inline-block;vertical-align: top;background:url(images/i_icon.png) no-repeat 22px 8px #0697DA;cursor:pointer}
+.help .search .hot_src {font:14px/30px "Microsoft YaHei";padding-left:10px;}
+.help .search .hot_src a{margin-right:10px}
+.help .search .hot_src a:hover{color:#0697DA;}
+.help .search_result{margin:20px;padding:10px 20px;border:1px solid #0697DA;border-top-width:5px;}
+.help .search_result h3{font-size: 16px;font-family: "microsoft yahei";
+color: #636363;font-weight: normal;margin-bottom:10px;}
+.help .search_result ul li a{font: 12px/24px "simsun";color:#0697DA}
+.help .search_result ul li a:hover{text-decoration:underline}
+.help .help_list ul li{display:inline-block;*display:inline;zoom:1;width:360px;height:195px;margin:10px 25px 10px 20px;vertical-align:top;overflow: hidden;}
+.help .help_list ul li h3{height:35px;font:20px/35px "Microsoft YaHei";color:#ea544a;padding:10px 0px 10px 55px;margin-bottom:10px;border-bottom:2px solid #e2e2e2;background:url(images/help.jpg) no-repeat}
+.help .help_list ul li h3.xinxi{background-position:0px 5px}
+.help .help_list ul li h3.zijin{background-position:0px -55px}
+.help .help_list ul li h3.benxi{background-position:0px -115px}
+.help .help_list ul li h3.fengxian{background-position:0px -175px}
+.help .help_list ul li dd a{font:14px/30px "Microsoft YaHei"}

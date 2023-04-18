@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px; list-style:none;}
+body{font-size:14px;color:#fff1c0;font-family:"微软雅黑";}
+.ztbg{ background:#c00805}
+.bg2{ background:#a00606}
+html{font-size:62.5%}
+a{ text-decoration:none}
+#warp a{ -webkit-tap-highlight-color: rgba(0,0,0,0);}
+:-moz-placeholder{color:#bbb; font-size:14px; font-weight:normal}
+::-moz-placeholder{color:#bbb; font-size:14px; font-weight:normal}
+input:-ms-input-placeholder{color:#bbb; font-size:14px; font-weight:normal}
+input::-webkit-input-placeholder{color:#bbb; font-size:14px; font-weight:normal}
+img{width:auto\9;height:auto;vertical-align:middle; border:0; -ms-interpolation-mode:bicubic;}
+
+.widthall{ width:100%}
+.ovet{ height: auto; overflow:hidden}
+.aut{ margin:0 auto}
+.dn{ display:none}
+.fl{ float:left}
+.fr{ float:right}
+.pr{ position:relative;margin:0 auto}
+.imgauto{ max-width:100%; height:auto; display:block;-ms-interpolation-mode: bicubic; margin:0 auto}
+.clearfix{ display: block; *display:inline-block;}
+.clearfix:after{ clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden;}
+.clear{ clear:both}
+
+.fama{ font-family:Arial}
+.colf01{ color:#fff1c0}
+.colf02{ color:#fff3db}
+.colf03{ color:#fff7d4}
+.colf04{ color:#814000}
+.colf3{ color:#333}
+.colf{ color:#fff}
+.ft12{ font-size:12px}
+.ft24{ font-size:14px}
+.ft28{ font-size:16px}
+.ft36{ font-size:20px}
+.fb{font-weight:bold;} 
+
+/*团队成员*/
+.hdsm{ width:40%; text-align:center;position:absolute; left:30%; top:49%; text-decoration:underline; color:#fff7d4}
+.tcmxbg{    margin-bottom: 23%; }
+.tcmx{ width:90%; margin-left:5%; text-align:center; position:absolute; top:0%}
+
+.jietiys1{ width:28%; margin-left:3%; margin-right:5%;position:absolute;top:41%; z-index:2;}
+.jeitiys_p1{ float:left; width:23%; color:#fff7d4; font-size:16px;margin-top: 25px;margin-right: 5px;}
+.jeitiys_p2{ float:left; width:40%; color:#fff7d4; font-size:50px; font-weight:bold; font-family:Arial, Helvetica, sans-serif}
+.jeitiys_p3{ float:left; width:25%; color:#fff7d4; font-size:16px}
+.tzys{ font-size:12px; color:#935b24; text-align:center}
+.tzys span{ font-size:12px; font-weight:bold;color:#fb0f0f}
+.jietiys2{ width:28%; margin-right:5%;position:absolute;top:25%; z-index:2; margin-left:36%}
+.jietiys3{ width:28%;position:absolute;top:11%; z-index:2; margin-left:69%}
+.jietiys05{margin-top: 31%;line-height:12px;}
+
+/*7阶梯*/
+.kjkslj{width:35%; border-top:1px solid #fff1c0; height:10px ; margin:3% auto; margin-top:16%}
+.dregrr{ font-size:18px; font-weight:bold; color:#fff1c0; line-height:20px; background:#a00606; text-align:center; position:absolute; top: -110%;left: 17%;width: 66%;}
+.hdjl7{ font-size:36px; font-weight:bold; color:#fff1c0; line-height:20px; background:#a00606; text-align:center; top: -100%;left: 16%;width: 67%;}
+.jiangli7bg{ width:90%; margin-left:4%; border:2px solid #f0e39d}
+.ft224{ font-size:28px}
+.jieti_top3{margin: 0 auto;text-align: center;margin-bottom: 9%;}
+
+/*8阶梯*/
+.jiangli7bg2{ width:84%; margin-left:7%; border:2px solid #f0e39d}
+.jieti_top4{width:70%; margin:10% auto; text-align: center;}
+.jieti_top4 .xianj{ font-size:38px; font-weight:bold; color:#fff}
+.jieti_top4 .tzejl{ font-size:14px;}
+
+/*我的队伍*/
+.wddw{ width:90%;background:#f4e5a2;margin: 10% auto;padding-top: 10%;padding-bottom: 7%;}
+.wddwlist{ width:90%; background:#fff7d4;border:2px solid #f2ca6a;}
+dwlistul{ margin-top:10px}
+.dwlist_li{ width:90%; border-bottom:1px dashed #e9ae48; margin-left:5%}
+.dwlist_li2{ width:90%; margin-left:5%}
+.wddwlist ul li p{ font-size:14px; color:#824a12; line-height:40px;}
+
+.dwlist_p1{ width:10%; text-align:center;}
+.dwlist_p2{ width:50%; text-align:center;}
+.dwlist_p3{ width:40%; text-align:center;}
+.dwlist_img{ width:17%;  margin-right:10px}
+
+/*队伍TOP3*/
+.dwlist_p4{ width:20%; text-align:center}
+.dwlist_p5{ width:45%;}
+.dwlist_p6{ width:35%;}
+.dwlist_p7{ width:40%;}
+.dwlist_img2{ width:22%;  margin-right:10px}
+
+/*弹窗提示*/
+.zhezhao{background:#000; position:fixed; bottom:0; left:0; z-index:100; width:100%; height:100%; opacity:0.75;}
+.tkbox{ position:fixed; width:70%; left:80%; padding:6%; top:15%;z-index:101; background:#fff; border-radius:8px;padding-top: 10%;}
+.tkboxzhai{ position:fixed; width:70%; left:9%; padding:6%; top:15%;z-index:101; background:#fff; border-radius:8px;padding-top: 10%;}
+.tkboxp01{ line-height:16px; top:46%;}
+.tkboxp02{ line-height:16px; top:33%;left: 9%;}
+
+.tkboxbut{ margin-top:3%;margin-left:5%;}
+.tkbbut02{ padding:4% 5%; border-radius:4px; background-color:#fff; color:#fc1111; font-size:14px; font-weight:bold; border:1px solid #fc1111; margin-right:6%; width:30%; text-align:center}
+.tkbbut01{ padding:4% 5%; border-radius:4px; background-color:#fc1111; color:#f7eab4; font-size:14px; font-weight:bold;width:30%; text-align:center}
+.tkbbut03{ padding:4% 5%; border-radius:4px; background-color:#fc1111; color:#f7eab4; font-size:14px; font-weight:bold;width:50%; text-align:center; margin-left:20%; margin-top:5%; margin-bottom:5%}
+
+.tkbox2{ color:#814000; position:fixed; width:70%; left:9%; padding:6%; top:30%;z-index:101; background:#fff; border-radius:8px;padding-top:8%}
+.tkbox2 ul{ padding-left:5%}
+.tkbox2 ul li{ list-style:decimal; line-height:19px; font-size:12px; margin-top:5px; font-family:Arial}
+.tkboximg{ width:60%; position:absolute; top:-8%; left:20%}
+.tkboximg2{width:10%; position:absolute; top:-6%; right:-5%}
+
+/*分享弹层*/
+.tanceng5{ width:100%;position:fixed;z-index:101;top:0;left:0;}
+
+/*未登录*/
+.weidenglbg{ width:86%; background:#fff; border:3px solid #fdf3c3; text-align:center;  margin:7% auto;padding: 10% 0; }
+.weidenglbut{ margin:0 auto; margin-top:5%;%}
+
+
+/*iphone4 5 5s*/
+@media only screen and (max-width:320px){
+	.tcmxbg { margin-bottom:15%}
+	.jeitiys_p1{ font-size:14px;margin-top: 22px;}
+	.jeitiys_p2{ font-size:40px}
+	.jeitiys_p3{ font-size:14px;}
+	.jietiys1{width: 31%;top:40%;margin-left: 2%;}
+	.jietiys2{width: 31%;margin-left: 34%;}
+	.jietiys05{margin-top: 27%;}
+	.jietiys3{ width:31%;margin-left: 67%;}
+	.wddwlist ul li p{ font-size:12px;} 
+	.ft24{ font-size:12PX}
+	
+	/*7阶梯*/
+	.kjkslj{margin-top:20%;}
+	.dregrr{font-size: 16px;}
+	.tkbbut02,.tkbbut01{ font-size:12px}
+	.tkbox2{ top:17%}
+	.tkboximg,.tkboximg2{ top:-4%}
+	}
+	

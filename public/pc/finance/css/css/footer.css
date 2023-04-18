@@ -1,0 +1,125 @@
+.footer_top {
+    background: url(../foots_bg2.png) center center no-repeat;
+    height: 100px;
+}
+
+.footer {
+    background: #444444;
+    text-align: center;
+}
+
+.footer ul {
+    height: auto;
+    overflow: hidden;
+    zoom: 1; background: url(../images/fa6d17aa.ic.png) no-repeat left 29px;
+}
+
+.footer ul li {
+    height: 180px;
+    width: 80px;
+    padding: 26px 25px 0 25px;
+    float: left;
+}
+
+.footer ul li.last {
+    width: 280px;
+    text-align: left;
+    padding-left: 42px;
+    /*background: url(../images/bd90d88e.line.png) no-repeat left top*/
+}
+
+.footer ul li.last span.til {
+    display: block;
+    float: initial;
+    color: #FFF
+}
+
+.footer ul li.last span.wx,.footer ul li.last span.app {
+    width: 100px;
+    height: 22px;
+    padding-top: 10px;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 30px;
+    color: #FFF
+}
+
+.footer ul li a {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #787775;
+    display: block;
+    text-align: left;
+    border-bottom: 1px dashed #535353;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer ul li a:hover {
+    color: #ffffff;
+}
+
+.footer ul li .til,.footer ul li.last .til-ic {
+    padding-bottom: 14px;
+    font-size: 15px;
+    color: #FFF;
+    line-height: 22px;
+    height: 22px;
+    border: none;
+}
+
+.footer ul li.last .til-ic {
+    background: url(../images/foot_link.png) no-repeat -660px -56px;
+    padding-left: 30px
+}
+
+.footer ul li.last .til-dz {
+    background: url(../images/foot_dizhi.png) no-repeat left center;
+    padding-left: 20px
+}
+
+.footer ul li.last .til-qq {
+    background: url(../images/foot_qq.png) no-repeat left center;
+    padding-left: 20px
+}
+
+.footer li.last p {
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #DEDDDB
+}
+
+.footer li.last p.bd {
+    font-size: 35px;
+    height: 42px;
+    line-height: 42px;
+    color: #DEDDDB
+}
+
+.foot-bt {
+    background: #aaa;
+    text-align: center;
+    padding: 20px 0;
+    color: #DEDDDB
+}
+
+.foot-bt p a {
+    color: #6c6c6d
+}
+
+.foot-bt p a:hover {
+    color: #ffe4ae;
+    text-decoration: none
+}
+
+.footer .f {
+    color: #d9d9d9;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0px;
+    /*    border-top: 1px solid #515151;
+*/
+}

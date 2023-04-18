@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+*{margin:0;padding:0;}
+body,html{font-family: Arial; font-size:.24rem ; color:#333;}
+a{text-decoration:none; color:#333; cursor:pointer;outline:none;}
+i,em{font-style:normal;}
+ul,li{list-style:none;}
+img{border:0 none;}
+
+.header-nbsp{width:7.5rem;height:2rem;}
+
+
+/*回到上一页*/
+.c_othertop{width:100%;height:6.5rem;box-shadow:0 1px 15px 2px #e1e1e1;background-color: #4f79bc;}
+.c_goback{width:22rem;height:5rem;float:left;margin-left:0.9rem;}
+.c_goback img{width:4rem;height:4rem;margin:1.5rem 0 0 0;}
+.c_othertop-font{width:12rem;height:3rem;float:left;line-height:6.5rem;text-align:center;font-size:5.1rem;color:#fff;}
+
+
+.hide{
+	display: none;
+}
+body{
+	background: #FDF4E0;
+}
+.turntable{
+	display:block;
+	width:95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.turntable .turnplate{
+	display:block;
+	width:100%;
+	position:relative;
+	background-image:url(../images/turnplate-bg.png);
+	background-size:100% 100%;
+	/* margin-top:20px; */
+}
+.turntable .turnplate canvas{
+	width:100%;
+}
+.turntable .turnplate img.pointer{
+	position:absolute;
+	width: 42.5%;
+    height: 42.5%;
+    left: 28.9%;
+    top: 29.1%;
+}
+
+.rules {
+    padding: 30px 40px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    background: #FDF4E0;
+    font-size: 14px;
+}
+
+.rules h4 {
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 14px;
+    color: #a23124;
+	border-bottom: 1px solid #a23124;
+}
+
+header { height:48px; line-height:48px; text-align:center; position:relative;  margin-bottom:3px; z-index:2; position:fixed; top:0; left:0; width:100%; background:#ffffff; color:#553C26}
+.blackHeader { background:#385fec; color:#FFF}
+.blackHeader a { color:#ffffff;}
+.headerTitle { font-size:18px;}
+.backImg { position:absolute; top:7px; left:10px; cursor:pointer; height:30px;}
+.inviteTab { border-collapse:collapse; width:100%; text-align:center; margin-top:50px; font-size:12px; background:#fff;}
+.inviteTab td,.inviteTab th { border:1px #ddd solid; padding:5px;}
+.tabTitle { background-color:#FDF4E0;font-size: 16px}
+.inviteTopTab { text-align:center; width:100%; padding-top:10px; line-height:30px;}
+.text-c {text-align: center;}
+.goback{width:25rem;height:25rem;float:left;margin-left:10rem;margin-top: 20px;}
+.clear { clear:both;}
+
+.coupon{position:relative;background:#d51d27;color:#fff;width:100%;height:95px;line-height:25px;overflow:hidden;margin-top:15px;}
+.coupon-diabled{background:#c3c3c3;color:#666;}
+.coupon:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.coupon-money .sum{font-size:25px;}
+.coupon-left{float:left;text-align:left;width:60%;font-size:12px;background:url(./circle-border-left.png) left center no-repeat;}
+.coupon-right{float:right;text-align: center;width:40%;font-size:14px;background:url(./circle-border-right.png) right center no-repeat;}
+.coupon-inner{padding:10px 15px;height:75px;position: relative;}
+.coupon-right .coupon-inner{border-left:2px dashed rgba(255,255,255,.5);}
+.coupon-money,.coupon-time{margin-top:12px;}
+.coupon-circle{display:inline-block;width:16px;height:16px;background:#fff;position: absolute;left:-9px;border-radius:50%}
+.coupon-circle.top{top:-8px;}
+.coupon-circle.bottom{bottom:-8px;}
+.coupon-light{position:absolute;top:20px;left:20%;height:150px;width:100%;background:rgba(255,255,255,.2);transform: rotate(-30deg);-webkit-transform: rotate(-30deg);-moz-transform: rotate(-30deg);}

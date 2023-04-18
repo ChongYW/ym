@@ -1,0 +1,123 @@
+*{margin:0; padding:0; list-style:none; text-decoration:none;font-family:microsoft yahei;}
+img{width:auto\9; height:auto; max-width:100%; vertical-align:middle; border:0; -ms-interpolation-mode:bicubic;}
+
+
+/*中秋活动 PC*/
+.cj_body{width:100%;height:980px;position:relative;}
+.cj_all{width:100%;height:888px;}
+.cj_ti{width:900px;margin:0 auto;font-size:18px;color:#333;margin-top:40px;}
+.cj_ti p span{color:#f00;font-size:20px;text-decoration:underline;}
+
+.cj_middle{width:1000px;height:666px;margin:0 auto;z-index:2;position:relative;margin-top:40px;}
+.cj_zhuanpan_left{float:left;height:660px;width:600px;}
+.cj_zhuanpan{background:url(/jsonpublic/source/images/appnew/zt/dier/dier_07.png) no-repeat;background-size:95% 100%; height:auto; width:100%; overflow:hidden; margin-top:6%; padding-bottom:8%;}
+.cj_zhuanpan ul{ width:86%;margin:0 auto; margin-top:5%; height:auto;margin-left:5%;margin-top:5%;}
+.cj_zhuanpan li{ width:31%; height:auto; overflow:hidden; float:left; margin:1% 1% 0 1%; background:#d70015; position:relative; list-style:none}
+.cj_zhuanpan li a{ width:100%; height:auto;display:block;}
+.cj_zhuanpan li span{ background:#000;opacity:0.4; display:block; height:100%;position:absolute; width:100%; z-index:1; top:0; left:0; border-radius:10px}
+.cj_zhuanpan li.active span{opacity:0; z-index:0}
+.cj_jl{float:right;height:660px;width:360px;}
+.cj_jl p{text-align:center;font-size:44px;padding:54px 0 0 0;color:#621616;}
+.cj_jl p span{font-size:54px;color:#ff5555;}
+.cj_jl_mianfei{width:80%;height:auto;margin-left:10%;margin-top:24px;}
+.cj_jl_mianfei img{width:100%;}
+.cj_jl .zq_zc{color:#eb3939;text-decoration:underline;text-align:center;font-size:22px;}
+.cj_jl .zq_zc:hover{color:#f9cb14;}
+.cj_zjjl{padding:0px 0px 0px 0px; width:100%;}
+.cj_zjjl img{width:100%;}
+.cj_jilu{width:90%; overflow:hidden; background:#fba266; height:244px; padding:0px 5%;border-radius:0 0 5px 5px;margin-right:10%;margin-top:-4px;padding-bottom:185px;}
+.cj_jilu li{height:40px; border-bo.tktyb h3ttom:1px #e37020 solid; color:#fff; line-height:40px;}
+.cj_jilu .jilu_l{float:left; width:45%;font-size:12px;}
+.cj_jilu .jilu_r{float:right; width:45%; text-align:right;font-size:12px;}
+.cj_jilu .ji_y{color:#ffd241; font-weight:bold; font-size:16px;}
+.cj_right_top{width:360px;height:330px;}
+
+.cj_right_bottom{width:360px;height:330px;margin-top:-186px;}
+.cj_bj{width:100%;margin-top:20px;height:560px;z-index:0;bottom:26%;}
+.cj_bj img{width:100%;height:502px;position:absolute;top:42%;}
+.zq_ac{width:100%;margin:0 auto;bottom:10%;margin-top:0px;background:#082338;height:auto;}
+.zq_ac ul{width:1000px;margin:0 auto;}
+.zq_ac li{list-style: decimal;line-height:30px;font-size:18px;color:#fff;}
+.zq_ac li span{color:#fdc04a;}
+/*中秋活动 PCends*/
+
+/*投资成功 弹框*/
+.tzcg_zz{background:#000; position:fixed; bottom:0; left:0; z-index:999; width:100%; height:100%;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;}
+.tzcg_box{  position:fixed; top:50%;margin-top:-66%; z-index:1000; width:100%; border-radius:8px; padding-bottom:0px;}
+.tzcg_cl{width:22px;float:right;margin-right:16%;}
+.tzcg_cl img{width:100%;}
+.tzcg_zi{width:100%;margin:0 auto;text-align:center;color:#f02d2d;position:absolute;bottom:25%;}
+.tzcg_bu{width:119px;margin:0 auto;position:absolute;bottom:6%;left:34%;}
+.tzcg_bu img{width:100%;}
+/*投资成功 弹框ends*/
+
+/*继续投资 弹框*/
+.jxtz_zz{background:#000; position:fixed; bottom:0; left:0; z-index:999; width:100%; height:100%;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;}
+.jxtz_box{  position:fixed; top:50%;margin-top:-66%; z-index:1000; width:100%; border-radius:8px; padding-bottom:0px;margin-left:-5%;}
+.jxtz_cl{width:22px;float:right;margin-right:16%;}
+.jxtz_cl img{width:100%;}
+.jxtz_zi{width:100%;margin:0 auto;text-align:center;color:#f02d2d;position:absolute;bottom:25%;}
+.jxtz_bu{width:52%;margin:0 auto;position:absolute;bottom:6%;left:24%;}
+.jxtz_bu .jx{width:91px;float:left;}
+.jxtz_bu .cj{width:91px;float:right;}
+/*继续投资 弹框ends*/
+
+@media only screen and (max-width:320px){
+     .tzcg_bu{left:33%;width:106px;}
+	 .tzcg_zi{bottom:22%;}
+	}
+@media only screen and (min-width:410px){
+     .tzcg_bu{left:36%;}
+	}
+	
+/**弹框*/
+.zhezhao{background:#000; position:fixed; bottom:0; left:0; z-index:999; width:100%; height:100%;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;}
+.zjd_close{ position:absolute; right:12px; top:12px; display:block; width:20px; height:20px;}
+
+.tkbox{ background:#ffc53b;  position:fixed; top:50%; left:50%; margin-left:-270px; margin-top:-215px; z-index:100001; width:540px; border-radius:8px; padding-bottom:30px}
+.hdimgauto{ display:block; max-width:100%; height:auto; margin:0 auto}
+
+.tktit{ width:80%; margin:0 auto; margin-top:-14%}
+.tktyb{ width:399px; height:169px; margin:0 auto; margin-top:15px; background:url(/jsonpublic/source/images/front/zdan/zjd_quan.png) no-repeat;}
+.tktybcont{ width:289px; padding-left:100px; text-align:center;}
+.tktybcont h3{font-size:80px;color:#ee6749;}
+
+.tktyb h3{ font-size:90px; color:#ee6749; height:120px; line-height:140px}
+.tktyb p{ font-size:14px; color:#888}
+
+.tkbnt{ width:76%; margin:0 auto; margin-top:15px}
+.tkbntton{ display:block; width:100%; height:50px; line-height:50px; color:#fff; font-size:22px; text-align:center; border-radius:8px; text-decoration:none; box-shadow:0 6px #d43e1b; background:#f1603f;}
+a.tkbntton:hover{ background:#eb5a39;color:#fff;}
+
+.tkhdgz{ width:86%; margin:0 auto; margin-top:30px; border-top:1px solid #e6a134; color:#b46d1a; font-size:14px}
+.tkhdgz h3{ font-size:16px; font-weight:normal; width:120px; text-align:center; height:20px; line-height:20px; margin:0 auto; margin-top:-10px; background:#ffc53b}
+.tkhdgz p{ margin-top:10px; line-height:21px}	
+
+/*中秋PC弹框*/
+.zq_pc_lb{background:#000; position:fixed; bottom:0; left:0; z-index:999; width:100%; height:100%;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;}
+.zq_pc_box{ position: fixed;top: 50%;left: 50%;margin-left: -270px;margin-top: -290px;z-index: 100001;width: 540px;border-radius: 8px; padding-bottom: 30px;}
+.zq_pc_button{width:82%;margin-top: -146px;margin-left: 9%;}
+.zq_pc_cl{width:46px;float:right;}
+/*中秋PC弹框ends*/
+@media only screen and (max-width:320px){
+     .tzcg_bu{left:33%;width:106px;}
+	 .tzcg_zi{bottom:22%;}
+	}
+@media only screen and (min-width:410px){
+     .tzcg_bu{left:36%;}
+	}
+/**下载客户端**/
+.cj_footer{width:100%;margin:0 auto;text-align:center;background:#082338;overflow:hidden;}
+.cj_footer p{color:#fff;font-size:26px;margin-top:54px;}
+.cj_footer img{margin-top:10px;}
+
+
+.ll_box{ background:#ffc53b;  position:fixed; top:50%; left:50%; margin-left:-270px; margin-top:-215px; z-index:1000; width:540px; border-radius:8px;padding-bottom:14px;}
+.ll_con{ width:289px; padding-left:100px; text-align:center;}
+.ll_con h3{ font-size:90px; color:#ee6749; height:120px; line-height:160px}
+.ll_mi_co{ width:399px; height:169px; margin:0 auto; margin-top:15px; background:url(/jsonpublic/source/images/front/zdan/cj_quan.png) no-repeat;}
+.img2{ display:block; max-width:100%; height:auto; margin:0 auto}
+.ll_tk{ width:80%; margin:0 auto; margin-top:-14%}
+.phone{text-align:center;margin-top:-33px;}
+.phone input{width:386px;height:30px;border:1px solid #f1603f;border-radius:5px;font-size:16px;padding:10px;}
+.ll_ac{text-align:center;margin-top:30px;color:#d43e1b;}

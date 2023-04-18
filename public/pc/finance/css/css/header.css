@@ -1,0 +1,168 @@
+/* CSS Document */
+/*页头*/
+.header .header_top {
+    height: 35px;
+    border-bottom: 1px solid #2F2F2F;
+    background: #2F2F2F;
+}
+
+.header .header_top .tel {
+    background: url("../images/telicon.png") no-repeat left center;
+    padding-left: 30px;
+}
+
+.header .header_top .tel b {
+    font-size: 14px;
+    color: #fff;
+}
+
+.header .header_top .contact span {
+    font-size: 14px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.header .header_top .contact a {
+    color: #fff;
+    display: inline-block;
+    background: url("../images/phone_ico.png") no-repeat scroll 0 rgba(0, 0, 0, 0);
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.header .header_top .contact a:hover {
+    color: #fff;
+}
+
+.header .header_top .weixin span {
+    font-size: 14px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.header .header_top .weixin a {
+    color: #fff;
+    display: inline-block;
+    background: url("../images/wx_ico.png") no-repeat scroll 0 rgba(0, 0, 0, 0);
+    padding-left: 25px;
+    margin-left: 10px;
+}
+
+.header .header_top .weixin a:hover {
+    color: #fff;
+}
+
+.header .header_top .qq span {
+    font-size: 14px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.header .header_top .qq a {
+    color: #fff;
+    display: inline-block;
+    background: url("../images/qq_ico.png") no-repeat scroll 0 rgba(0, 0, 0, 0);
+    padding-left: 25px;
+    margin-left: 10px;
+}
+
+.header .header_top .qq a:hover {
+    color: #fff;
+}
+
+.header .header_top .top_rig {
+    font-size: 14px;
+}
+
+.header .header_top .top_rig li {
+    float: left;
+}
+
+.header .header_top .top_rig a {
+    display: inline-block;
+    line-height: 35px;
+    padding: 0px 5px;
+    color: #fff;
+}
+
+.header .header_top .top_rig a:hover {
+    color: #fff;
+}
+
+/*头部*/
+.header .header_cont {
+    height: 96px;
+    width: 100%;
+    background: #FFF;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+    /*-webkit-box-shadow: 0px 4px 12px -2px rgba(20%,20%,40%,0.2);
+-moz-box-shadow: 0px 4px 12px -2px rgba(20%,20%,40%,0.2);
+box-shadow: 0px 4px 12px -2px rgba(20%,20%,40%,0.2);*/
+}
+
+.header .header_cont h1 {
+    margin-top: 10px;
+    width: 380px;
+    float: left
+}
+
+/*导航条*/
+.header .nav_main {
+    width: 800px;
+    float: right;
+    overflow: hidden;
+    margin: 25px 0 0 0;
+    font-size: 18px;
+}
+
+.navbar .nav {
+    float: right
+}
+
+.navbar .nav ul {
+}
+
+.navbar .nav li {
+    float: left;
+    z-index: 9;
+    height: 35px;
+    margin: 0px 8px;
+    color: #4D4D4D;
+    line-height: 35px;
+    padding: 0px 10px;
+}
+
+.navbar .nav li:hover {
+    color: #ffffff;
+    background: #ff6600;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.navbar .nav li:hover a {
+    color: #ffffff;
+}
+
+.navbar .nav li.active {
+    background: #ff6600;
+    border-radius: 4px;
+}
+
+.navbar .nav li.active a {
+    color: #ffffff;
+}
+
+.navbar .nav li.shouyi {
+    background: url("../images/topsy.png") no-repeat 10px center;
+    padding-left: 45px;
+    border-left: 1px solid #e3e3e3;
+}
+
+.navbar .nav li.shouyi a {
+    color: #4D4D4D;
+}
+
+.navbar .nav li.shouyi a:hover {
+    color: #4D4D4D;
+}

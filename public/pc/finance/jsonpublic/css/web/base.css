@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px; margin:0px; list-style:none;}
+body {font-size:13px; color:#555; font-family:"Microsoft YaHei","Lucida Sans Unicode","Myriad Pro","Hiragino Sans GB","Heiti SC",Verdana,simsun;}
+a{color:#666; text-decoration:none;}
+a:hover{color:#3a9775; text-decoration:none;}
+a img{border:none;}
+
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+h1 { font-size:24px;}
+h2 { font-size:20px; }
+h3 { font-size:18px; }
+h4 { font-size:16px; }
+h5 { font-size:14px; }
+h6 { font-size:12px; }
+
+/*btn*/
+.inb01,.inb02,.inb03,.lib01,.lib02,.lib03{display:block; border-radius:5px; height:35px; line-height:35px; font-size:16px; text-align:center;}
+.inb01,.lib01{background:#ff906e; color:#fff;}/*橙色按钮*/
+.inb02,.lib02{background:#fff; height:33px; line-height:33px; border:1px #e7e7e7 solid; color:#aeaeae;}/*灰色按钮*/
+.inb03,.lib03{background:#dcdcdc; color:#333;}
+.inb01:hover,.inb02:hover,.lib01:hover,.lib02:hover{background:#ff7145; color:#fff;}
+.inb02:hover,.lib02:hover{background:#e7e7e7; color:#333;}
+
+/*page*/
+.gpage{ padding:15px 0px; text-align:center;}
+.gpage a{ margin-right:5px; height:24px; line-height:24px; width:24px; border-radius:3px; text-align:center; border:1px #c1c1c1 solid; font-size:12px; display:inline-block; position:relative;}
+.gpage a:hover,.gpage a.hov,.gpage a.hov:hover{ background:#86d0b5; border:1px #86d0b5 solid; color:#fff;}
+.gpage > b{display:inline-block; line-height:18px;}
+.gpage .pagePrev b,.gpage .pageNext b{ border-color:#fff #4e4e4e #fff #fff; border-style:solid; border-width:6px; left:9px; font-size:0px; height:0px; line-height:0px; width:0px; position:absolute; top:6px;}
+.gpage .pageNext b{ border-color:#fff #fff #fff #4e4e4e;}
+.gpage .pagePrev b{left:2px;}
+.gpage .pagePrev:hover b{border-color:#86d0b5 #fff #86d0b5 #86d0b5;}
+.gpage .pageNext:hover b{ border-color:#86d0b5 #86d0b5 #86d0b5 #fff;}
+.gpage *{display:inline-block;  vertical-align:middle;}
+
+/*面包屑*/
+.crumid{height:40px; line-height:40px; width:980px; margin:0px auto;}
+
+/*弹层*/
+.lybox {background: #ffffff none repeat scroll 0 0; border: 5px solid #4e4e4e; left: 50%; position: fixed; _position: absolute; top:50%; z-index: 999;}
+.membox {background: #ffffff none repeat scroll 0 0; border: 1px solid #4e4e4e; left: 50%; position: fixed; _position: absolute; top:50%; z-index: 999;}
+.lyb_1{width:680px; margin-left:-340px; height:255px; margin-top:-130px;}
+.lyb_2{width:640px; margin-left:-320px; height:200px; margin-top:-100px;}
+h3.tittc {background: #ddd;  color: #000; font-size: 18px; font-weight: normal; height: 40px; line-height: 40px; padding-left: 10px; position: relative;}
+.clolay {background:url("/jsonpublic/images/xdk/closeicon.gif") no-repeat; display: block; height: 28px; position: absolute; right: 5px; top: 5px; width: 30px; z-index: 99999;}
+.txttcdiv {font-size: 18px; line-height: 36px; padding: 20px 0 20px 63px; text-align: left;}
+.lybtncen {height: 50px; text-align: center;}
+
+/**/
+.clearfix { display: block; *display:inline-block;}
+.clearfix:after { clear: both;  content: ".";  display: block;  height: 0;  overflow: hidden;  visibility: hidden;}
+.FL { float:left; }
+.FR { float:right; }
+.DN , .dn {display:none;}
+.OV {overflow:hidden;}
+.PR {position:relative;}
+.PA {position:absolute;}
+.VB {vertical-align:bottom;}
+.nl_b {border-bottom:0px;}
+.nl_r {border-right:0px;}
+.dsil{display:inline-block;}
+
+/*width height*/
+.wtb100 {width:100%;}
+.wt40 {width:40px;}
+.wt70 {width:70px;}
+.wt90 {width:90px;}
+.wt110 {width:110px;}
+.wt115 {width:115px;}
+.wt118 {width:118px;}
+.wt130 {width:130px;}
+.wt150 {width:150px;}
+.wt158 {width:158px;}
+.wt165 {width:165px;}
+.wt175 {width:175px;}
+.wt178 {width:178px;}
+.wt180 {width:180px;}
+.wt185 {width:185px;}
+.wt194 {width:194px;}
+.wt200 {width:200px;}
+.wt230 {width:230px;}
+.wt260 {width:260px;}
+.ht55 {height:55px;}
+.ht115 {height:115px;}
+
+.lh24 {line-height:24px; }
+.lh32 {line-height:32px; }
+.lh40 {line-height:40px; }
+.lh45 {line-height:45px; }
+
+
+.icp a {color:#a4a4a4; font-size:12px;}
+.icp a:hover {color:#fff;}
+
+.PPR {position:relative;}

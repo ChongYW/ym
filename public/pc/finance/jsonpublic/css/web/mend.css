@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*内补丁*/
+.pau_lr {}
+.pau_tb {}
+.pd_t5 {padding-top:5px;}
+.pd_t10 {padding-top:10px;}
+.pd_t20 {padding-top:20px;}
+.pd_t40 {padding-top:40px;}
+.pd_r10 {padding-right:10px;}
+.pd_r20 {padding-right:20px;}
+.pd_r40 {padding-right:40px;}
+.pd_l5 {padding-left:5px;}
+.pd_l10 {padding-left:10px;}
+.pd_l40 {padding-left:40px;}
+.pd_l50 {padding-left:50px;}
+.pd_l95 {padding-left:95px;}
+.pd_l100 {padding-left:100px;}
+.pd_l120 {padding-left:120px;}
+.pd_l145 {padding-left:145px;}
+.pd_l210 {padding-left:210px;}
+.pd_b0 {padding-bottom:0px;}
+.pd_b5 {padding-bottom:5px;}
+.pd_b15 {padding-bottom:15px;}
+.pd_b30 {padding-bottom:30px;}
+.pd_b40 {padding-bottom:40px;}
+.pd_b60 {padding-bottom:60px;}
+.pd_b90 {padding-bottom:90px;}
+
+/*外补丁*/
+.ma_lr01 {margin:0px 5px;}
+.ma_lr02 {margin:0px 15px;}
+.ma_lr03 {margin:0px 20px;}
+.ma_lr04 {margin:0px 30px;}
+.mau_tb {}
+.mg_t1 {margin-top:-1px;}
+.mg_t5 {margin-top:5px;}
+.mg_t10 {margin-top:10px;}
+.mg_t15 {margin-top:15px;}
+.mg_t18 {margin-top:18px;}
+.mg_t20 {margin-top:20px;}
+.mg_r18 {margin-right:18px;}
+.mg_l {}
+.mg_b5 {margin-bottom:5px;}
+.mg_b20 {margin-bottom:20px;}
+.mg_l3 {margin-left:3px;}
+
